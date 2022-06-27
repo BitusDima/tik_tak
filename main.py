@@ -16,7 +16,7 @@ wins['0'] = wins_draw[1][0]
 draw = wins_draw[2][0]
 
 
-def show_menu():                        # выводим в терминал меню игры
+def show_menu():                        # функция вывода в терминал меню игры
     os.system('clear')
     print('_____MENU_____', end = '\n\n')
     print('1. Show statistic')
@@ -28,7 +28,7 @@ def show_menu():                        # выводим в терминал м�
         answer = input('What do you want to choose? ')
     return answer
 
-def show_the_board():                   # выводим в терминал поле игры
+def show_the_board():                   # функция вывода в терминал поле игры
     os.system('clear')
     print(f'{the_board[0]} | {the_board[1]} | {the_board[2]}')
     print('__|___|__')
